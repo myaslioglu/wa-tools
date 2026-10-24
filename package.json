@@ -1,0 +1,15 @@
+{
+  "name": "wa-tools",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Kişisel WhatsApp Web araçları (Chrome MV3 eklentisi): sohbet arşivi",
+  "scripts": {
+    "test": "node test/e2e.cjs extension .test-output"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
